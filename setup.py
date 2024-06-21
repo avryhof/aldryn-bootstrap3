@@ -5,6 +5,7 @@ from setuptools import find_packages, setup
 from aldryn_bootstrap3 import __version__
 
 REQUIREMENTS = [
+    "django>2.2",
     "django-appconf>=1.0.0",
     "django-cms>=3.5.0",
     "django-filer>=0.9.11",
